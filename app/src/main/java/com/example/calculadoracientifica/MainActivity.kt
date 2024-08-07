@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
-import java.util.Stack
 import kotlin.math.*
 
 class MainActivity : AppCompatActivity() {
@@ -23,7 +22,8 @@ class MainActivity : AppCompatActivity() {
             R.id.button0, R.id.button1, R.id.button2, R.id.button3, R.id.button4,
             R.id.button5, R.id.button6, R.id.button7, R.id.button8, R.id.button9,
             R.id.buttonAdd, R.id.buttonSubtract, R.id.buttonMultiply, R.id.buttonDivide,
-            R.id.buttonEquals, R.id.buttonClear, R.id.buttonSqrt, R.id.buttonPower
+            R.id.buttonEquals, R.id.buttonClear, R.id.buttonSqrt, R.id.buttonPower,
+            R.id.OpenParenthesis, R.id.CloseParenthesis
         )
 
         buttons.forEach { id ->
@@ -51,4 +51,3 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
-

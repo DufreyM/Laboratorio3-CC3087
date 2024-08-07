@@ -175,5 +175,21 @@
             android:layout_columnWeight="1"
             android:text="^"
             android:contentDescription="Botón potencia" />
+
+        <Button
+            android:id="@+id/OpenParenthesis"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="("
+            android:contentDescription="Botón potencia"/>
+        <Button
+            android:id="@+id/CloseParenthesis"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text=")"
+            android:contentDescription="Botón potencia"/>
+
     </GridLayout>
 </RelativeLayout>
